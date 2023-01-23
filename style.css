@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header #logo{
+    background-color: brown;
+    height: 50px;
+}
+
+header #link{
+    background-color: green;
+    height: 50px;
+}
+
+header #log-in{
+    background-color: yellow;
+    height: 50px;
+}
