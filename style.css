@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-header{
+.background{
     background-color: blue;
-    height: 400px;
+    height: 600px;
 }
 .container{
     display: flex;
@@ -42,4 +42,31 @@ ul{
 }
  li{
     display: inline-block;
+ }
+
+ nav #subtitle{
+    background-color: white;
+    width: 35%;
+    height: 100px;
+    margin:95px 0 0 585px;
+    
+ }
+
+ nav #text{
+    background-color: black;
+    width: 50%;
+    height: 150px;
+    margin:55px 0 0 440px;
+ }
+
+ nav #first-button{
+    background-color: aquamarine;
+    height: 50px;
+    width: 20px;
+ }
+
+ nav #second-button{
+    background-color: blueviolet;
+    height: 50px;
+    width: 20px;
  }
