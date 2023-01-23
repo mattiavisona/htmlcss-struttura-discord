@@ -16,25 +16,30 @@ header{
     margin: auto;
 }
 
-header #logo{
+#logo{
     background-color: brown;
+    height: 50px;
+    width: 10%;
+    margin-top: 15px;
+}
+
+#link{
+    background-color: green;
+    height: 50px;
+    width: 50%;
+    margin-top: 15px;
+}
+
+#log-in{
+    background-color: yellow;
     height: 50px;
     width: 15%;
     margin-top: 15px;
 }
 
-header #link{
-    background-color: green;
-    height: 50px;
-    width: 50%;
-    margin-top: 15px;
-    
+ul{
+    list-style-type: none;
 }
-
-header #log-in{
-    background-color: yellow;
-    height: 50px;
-    width: 10%;
-    margin-top: 15px;
-    
-}
+ li{
+    display: inline-block;
+ }
