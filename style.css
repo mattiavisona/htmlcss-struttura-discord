@@ -4,17 +4,28 @@
     box-sizing: border-box;
 }
 
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
 header #logo{
     background-color: brown;
     height: 50px;
+    flex-grow: 1;
 }
 
 header #link{
     background-color: green;
     height: 50px;
+    flex-grow: 1;
+    
 }
 
 header #log-in{
     background-color: yellow;
     height: 50px;
+    flex-grow: 1;
 }
